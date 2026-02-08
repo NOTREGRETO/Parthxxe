@@ -1429,6 +1429,7 @@
 
             window.closePlayer = function () {
                 const container = document.getElementById('iframe-container');
+                const modal = document.getElementById('player-modal');
 
                 modal.classList.add('opacity-0');
                 document.body.style.overflow = 'auto'; // Restore scroll immediately to prevent stuck
